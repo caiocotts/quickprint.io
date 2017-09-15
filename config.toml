@@ -1,0 +1,50 @@
+baseURL = "http://quickprint.io/"
+languageCode = "en-us"
+title = "QuickPrint.IO"
+theme = "beautifulhugo"
+
+metaDataFormat = "yaml"
+
+[params]
+
+logo = "logo.png"
+
+[Author]
+  name = "Caio dos Santos Cotts Quintão"
+  email = "site@quickprint.io"
+  facebook = "quickprinto.io"
+  snapchat = "quickprint.io"
+  instagram = "quickprint.io"
+  3dhubs = "quickprint.io"
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "learn"
+    name = "Learn"
+    weight = 2
+
+[[menu.main]]
+    parent = "learn"
+    name = "How to print"
+    url = "page/how-to-print/"
+    weight = 1
+
+[[menu.main]]
+    parent = "learn"
+    name = "Slicing"
+    url = "page/slicing/"
+    weight = 2
+
+[[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Buy"
+    url = "/page/buy/"
+    weight = 4
