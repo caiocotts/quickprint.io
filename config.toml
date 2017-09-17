@@ -22,22 +22,22 @@ logo = "logo.png"
     url = "page/about/"
     weight = 3
 
-[[menu.main]]
-    identifier = "learn"
-    name = "Learn"
-    weight = 2
+# [[menu.main]]
+#     identifier = "learn"
+#     name = "Learn"
+#     weight = 2
 
-[[menu.main]]
-    parent = "learn"
-    name = "How to print"
-    url = "page/how-to-print/"
-    weight = 1
+# [[menu.main]]
+#     parent = "learn"
+#     name = "How to print"
+#     url = "page/how-to-print/"
+#     weight = 1
 
-[[menu.main]]
-    parent = "learn"
-    name = "Slicing"
-    url = "page/slicing/"
-    weight = 2
+# [[menu.main]]
+#     parent = "learn"
+#     name = "Slicing"
+#     url = "page/slicing/"
+#     weight = 2
 
 [[menu.main]]
     name = "Home"
