@@ -44,7 +44,7 @@ logo = "logo.png"
     url = ""
     weight = 1
 
-[[menu.main]]
-    name = "Buy"
-    url = "/page/buy/"
-    weight = 4
+# [[menu.main]]
+#     name = "Buy"
+#     url = "/page/buy/"
+#     weight = 4
